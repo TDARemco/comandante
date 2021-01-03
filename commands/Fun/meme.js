@@ -13,7 +13,7 @@ module.exports = {
         const Embed = new MessageEmbed()
             .setTitle(`The meme creator of this meme: ${subreddit}`)
             .setURL(`https://reddit.com/r/${subreddit}`)
-            .setColor("RANDOM!")
+            .setColor("RANDOM!!")
             .setImage(img);
         message.channel.send(Embed);
     },
