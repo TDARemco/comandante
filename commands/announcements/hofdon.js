@@ -29,8 +29,8 @@ module.exports = {
                                  **Speler:** ${dMessage}`)
                 .setFooter("Reageer zodra dit afgerond is met ✅")
                 .setColor("#75178f")
-                .setThumbnail("https://icons.iconarchive.com/icons/aha-soft/desktop-halloween/64/Hatchet-icon.png")
-                .setImage("https://cdn.discordapp.com/attachments/795329507539943425/795345323522392064/tenor.gif")
+                .setThumbnail("https://cdn.discordapp.com/attachments/795329507539943425/795346575232466984/lorenzoicon.png")
+                .setImage("https://cdn.discordapp.com/attachments/795329507539943425/795346921979379712/gunpng.png")
 
 
             return message.channel.send(botEmbed);
