@@ -30,7 +30,7 @@ module.exports = {
                 .setFooter("Reageer zodra dit afgerond is met ✅")
                 .setColor("#75178f")
                 .setThumbnail("https://icons.iconarchive.com/icons/aha-soft/desktop-halloween/64/Hatchet-icon.png")
-                .setImage("https://tenor.com/view/wanted-funny-humor-fun-gif-5706362")
+                .setImage("https://cdn.discordapp.com/attachments/795329507539943425/795345323522392064/tenor.gif")
 
 
             return message.channel.send(botEmbed);
