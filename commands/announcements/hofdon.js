@@ -26,7 +26,8 @@ module.exports = {
                                  hij moet vanaf nu goed opletten!
 
                                  **Door:** ${dUser}
-                                 **Speler:** ${dMessage}`)
+                                 **Speler:** ${dMessage}
+                                 **Wanneer:** ${dTime}`)
                 .setFooter("Reageer zodra dit afgerond is met ✅")
                 .setColor("#75178f")
                 .setThumbnail("https://icons.iconarchive.com/icons/aha-soft/desktop-halloween/64/Hatchet-icon.png")
