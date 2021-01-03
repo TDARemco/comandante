@@ -1,8 +1,8 @@
 ﻿const Discord = require("discord.js");
 module.exports = {
-    name: 'howdon',
+    name: 'hitlist',
     category: 'announcements',
-    description: 'howdon',
+    description: 'hitlist',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -19,18 +19,18 @@ module.exports = {
             var botIcon = bot.user.displayAvatarURL;
 
             var botEmbed = new discord.MessageEmbed()
-                .setTitle("HALL OF GREAT WIZARDS")
-                .setDescription(`YOUUU SHALL PASS
+                .setTitle("HITLIST - COMANDANTE")
+                .setDescription(`MARKED PERSON
 
-                                 Je hebt een heel moeilijke spell unlockt,
-                                 Welkom bij de grootmeesters
+                                 Je hebt een speler toegevoegd aan de hitlist
+                                 hij moet vanaf nu goed opletten!
 
                                  **Door:** ${dUser}
-                                 **Bits:** €20,00 +`)
-                .setFooter("Look into the crystal ball! 🔮")
+                                 **Speler:** ${dMessage}`)
+                .setFooter("Reageer zodra dit afgerond is met ✅")
                 .setColor("#75178f")
-                .setThumbnail("https://icons.iconarchive.com/icons/aha-soft/free-large-boss/48/Wizard-icon.png")
-                .setImage("https://cdn.discordapp.com/attachments/773961994217979905/794691452554051634/tenor_1.gif")
+                .setThumbnail("https://icons.iconarchive.com/icons/aha-soft/desktop-halloween/64/Hatchet-icon.png")
+                .setImage("https://cdn.discordapp.com/attachments/781588863285461012/795342669496320080/62fa3085ebe3c6a5895795eff7349f54.gif")
 
 
             return message.channel.send(botEmbed);
