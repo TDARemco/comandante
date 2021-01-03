@@ -18,7 +18,7 @@ client.on("ready", async () => {
 
     console.log(`${client.user.username} is online!`)
 
-    client.user.setActivity('Ordina qualche pizza', { type: 'WATCHING' });
+    client.user.setActivity('Come si fa la pizza', { type: 'WATCHING' });
 
 });
 
